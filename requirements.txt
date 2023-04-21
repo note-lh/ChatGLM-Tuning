@@ -12,4 +12,5 @@ tensorboard
 
 # 
 datasets==2.10.1
-git+https://github.com/huggingface/peft.git  # 最新版本 >=0.3.0.dev0
+#git+https://github.com/huggingface/peft.git  # 最新版本 >=0.3.0.dev0,保存的adapter_model.bin文件为空
+pip install git+https://github.com/huggingface/peft.git@e536616888d51b453ed354a6f1e243fecb02ea08
